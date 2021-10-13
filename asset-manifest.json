@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Tyler-Wiz/React-TodoApp.git/static/css/main.77442c21.chunk.css",
+    "main.js": "/Tyler-Wiz/React-TodoApp.git/static/js/main.a0f452bd.chunk.js",
+    "main.js.map": "/Tyler-Wiz/React-TodoApp.git/static/js/main.a0f452bd.chunk.js.map",
+    "runtime-main.js": "/Tyler-Wiz/React-TodoApp.git/static/js/runtime-main.b1286bbf.js",
+    "runtime-main.js.map": "/Tyler-Wiz/React-TodoApp.git/static/js/runtime-main.b1286bbf.js.map",
+    "static/js/2.e86c2090.chunk.js": "/Tyler-Wiz/React-TodoApp.git/static/js/2.e86c2090.chunk.js",
+    "static/js/2.e86c2090.chunk.js.map": "/Tyler-Wiz/React-TodoApp.git/static/js/2.e86c2090.chunk.js.map",
+    "index.html": "/Tyler-Wiz/React-TodoApp.git/index.html",
+    "static/css/main.77442c21.chunk.css.map": "/Tyler-Wiz/React-TodoApp.git/static/css/main.77442c21.chunk.css.map",
+    "static/js/2.e86c2090.chunk.js.LICENSE.txt": "/Tyler-Wiz/React-TodoApp.git/static/js/2.e86c2090.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1286bbf.js",
+    "static/js/2.e86c2090.chunk.js",
+    "static/css/main.77442c21.chunk.css",
+    "static/js/main.a0f452bd.chunk.js"
+  ]
+}
