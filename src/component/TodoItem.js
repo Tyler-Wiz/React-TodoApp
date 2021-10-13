@@ -1,6 +1,4 @@
 import React from "react";
-
-
 function TodoItem(props){
    const {item} = props
    const completedStyle = {
@@ -8,7 +6,6 @@ function TodoItem(props){
        textDecoration:"line-through",
        color:"#c3c3c3"
    }
-
     return(
         <div>
             <div className="todo_item">
