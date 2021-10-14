@@ -20,15 +20,16 @@ function TodoForm(props) {
 
     return (
         <div>
-            <form onSubmit={handleSubmit}>
+            <form className='form' onSubmit={handleSubmit}>
                 <input 
                    type='text'
                    name='text'
                    placeholder='Your Todo'
                    onChange={handleChange}
                    value={input}
+                   className='inp'
                 />
-                <button disabled={input === ""}>Add ToDo</button>
+                <button className='btn' disabled={input === ""}>Add </button>
             </form>
         </div>
     )

@@ -9,30 +9,84 @@ html{
 }
 
 body{
+    width: 80%;
     margin: 3rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container{
+    width: 90%;
+    min-height: 70rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    background-color: rgb(8, 78, 143);
+    border-radius: 15px;
 }
 
 .todo_list{
-    width: 90%;
-    margin: 3rem auto;
+    max-width:100%;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    padding: 2.5rem;
-  
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 .todo_item {
+    width:420px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 4rem;
-    gap: 4rem;
-    border-bottom: 1px solid rgb(211, 211, 211);
-    font-size: 2.5rem;
-    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    background-color: rgb(53, 34, 27);
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    gap: 1rem;
+    font-size: 1.8rem;
+    transition: all 3s ease-in-out ;
+}
+.form{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.todo_text{
+    flex-grow: 1;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    background-color: rgb(221, 228, 124);
+    border: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.inp{
+    width: 38rem;
+    padding: 1rem 2.5rem;
+    border-radius: 20px;
+    border: 1px solid rgb(8, 78, 143);
+}
+
+input:focus{
+    outline: none;
+  }
+
+.remove_btn{
+    background: none;
+    border: none;
+    color: rgb(240, 15, 15);
+    transition: all 3s ease-in-out ;
 }
